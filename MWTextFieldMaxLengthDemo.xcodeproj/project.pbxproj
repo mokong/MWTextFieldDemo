@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		484FBB0B28B0937E0043D190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FBB0A28B0937E0043D190 /* AppDelegate.swift */; };
+		484FBB0D28B0937E0043D190 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FBB0C28B0937E0043D190 /* SceneDelegate.swift */; };
+		484FBB0F28B0937E0043D190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FBB0E28B0937E0043D190 /* ViewController.swift */; };
+		484FBB1228B0937E0043D190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484FBB1028B0937E0043D190 /* Main.storyboard */; };
+		484FBB1428B093830043D190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484FBB1328B093830043D190 /* Assets.xcassets */; };
+		484FBB1728B093830043D190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484FBB1528B093830043D190 /* LaunchScreen.storyboard */; };
+		484FBB1F28B095340043D190 /* MWMethod1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FBB1E28B095340043D190 /* MWMethod1VC.swift */; };
+		484FBB2128B0954B0043D190 /* MWMethod2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FBB2028B0954B0043D190 /* MWMethod2VC.swift */; };
+		484FBB2328B0956C0043D190 /* MWFinalMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FBB2228B0956C0043D190 /* MWFinalMethodVC.swift */; };
+		484FBB2728B095CD0043D190 /* MWNormalCustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FBB2628B095CD0043D190 /* MWNormalCustomTF.swift */; };
+		484FBB2928B095D90043D190 /* MWCustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FBB2828B095D90043D190 /* MWCustomTF.swift */; };
+		92D70561A94D39C320C6FB53 /* Pods_MWTextFieldMaxLengthDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E40C5385F6512D173701A5 /* Pods_MWTextFieldMaxLengthDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		217EEADC6955B7731EC1260F /* Pods-MWTextFieldMaxLengthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWTextFieldMaxLengthDemo.release.xcconfig"; path = "Target Support Files/Pods-MWTextFieldMaxLengthDemo/Pods-MWTextFieldMaxLengthDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2A7E8E8A21F5A73D240A2583 /* Pods-MWTextFieldMaxLengthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWTextFieldMaxLengthDemo.debug.xcconfig"; path = "Target Support Files/Pods-MWTextFieldMaxLengthDemo/Pods-MWTextFieldMaxLengthDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		484FBB0728B0937E0043D190 /* MWTextFieldMaxLengthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWTextFieldMaxLengthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		484FBB0A28B0937E0043D190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		484FBB0C28B0937E0043D190 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		484FBB0E28B0937E0043D190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		484FBB1128B0937E0043D190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		484FBB1328B093830043D190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		484FBB1628B093830043D190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		484FBB1828B093830043D190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484FBB1E28B095340043D190 /* MWMethod1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWMethod1VC.swift; sourceTree = "<group>"; };
+		484FBB2028B0954B0043D190 /* MWMethod2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWMethod2VC.swift; sourceTree = "<group>"; };
+		484FBB2228B0956C0043D190 /* MWFinalMethodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWFinalMethodVC.swift; sourceTree = "<group>"; };
+		484FBB2628B095CD0043D190 /* MWNormalCustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWNormalCustomTF.swift; sourceTree = "<group>"; };
+		484FBB2828B095D90043D190 /* MWCustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWCustomTF.swift; sourceTree = "<group>"; };
+		F2E40C5385F6512D173701A5 /* Pods_MWTextFieldMaxLengthDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MWTextFieldMaxLengthDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484FBB0428B0937E0043D190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D70561A94D39C320C6FB53 /* Pods_MWTextFieldMaxLengthDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484FBAFE28B0937E0043D190 = {
+			isa = PBXGroup;
+			children = (
+				484FBB0928B0937E0043D190 /* MWTextFieldMaxLengthDemo */,
+				484FBB0828B0937E0043D190 /* Products */,
+				9424D06548DBE5E1CF710923 /* Pods */,
+				F431D2D7E5C981AA44A2072A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		484FBB0828B0937E0043D190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484FBB0728B0937E0043D190 /* MWTextFieldMaxLengthDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484FBB0928B0937E0043D190 /* MWTextFieldMaxLengthDemo */ = {
+			isa = PBXGroup;
+			children = (
+				484FBB2528B095960043D190 /* Controller */,
+				484FBB2428B0958B0043D190 /* View */,
+				484FBB0A28B0937E0043D190 /* AppDelegate.swift */,
+				484FBB0C28B0937E0043D190 /* SceneDelegate.swift */,
+				484FBB0E28B0937E0043D190 /* ViewController.swift */,
+				484FBB1028B0937E0043D190 /* Main.storyboard */,
+				484FBB1328B093830043D190 /* Assets.xcassets */,
+				484FBB1528B093830043D190 /* LaunchScreen.storyboard */,
+				484FBB1828B093830043D190 /* Info.plist */,
+			);
+			path = MWTextFieldMaxLengthDemo;
+			sourceTree = "<group>";
+		};
+		484FBB2428B0958B0043D190 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				484FBB2628B095CD0043D190 /* MWNormalCustomTF.swift */,
+				484FBB2828B095D90043D190 /* MWCustomTF.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		484FBB2528B095960043D190 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				484FBB1E28B095340043D190 /* MWMethod1VC.swift */,
+				484FBB2028B0954B0043D190 /* MWMethod2VC.swift */,
+				484FBB2228B0956C0043D190 /* MWFinalMethodVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9424D06548DBE5E1CF710923 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A7E8E8A21F5A73D240A2583 /* Pods-MWTextFieldMaxLengthDemo.debug.xcconfig */,
+				217EEADC6955B7731EC1260F /* Pods-MWTextFieldMaxLengthDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F431D2D7E5C981AA44A2072A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2E40C5385F6512D173701A5 /* Pods_MWTextFieldMaxLengthDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484FBB0628B0937E0043D190 /* MWTextFieldMaxLengthDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484FBB1B28B093830043D190 /* Build configuration list for PBXNativeTarget "MWTextFieldMaxLengthDemo" */;
+			buildPhases = (
+				4E34C8A3287E09156AFE54F1 /* [CP] Check Pods Manifest.lock */,
+				484FBB0328B0937E0043D190 /* Sources */,
+				484FBB0428B0937E0043D190 /* Frameworks */,
+				484FBB0528B0937E0043D190 /* Resources */,
+				7637A59BEC22E6BF57CFA726 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MWTextFieldMaxLengthDemo;
+			productName = MWTextFieldMaxLengthDemo;
+			productReference = 484FBB0728B0937E0043D190 /* MWTextFieldMaxLengthDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		484FBAFF28B0937E0043D190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					484FBB0628B0937E0043D190 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 484FBB0228B0937E0043D190 /* Build configuration list for PBXProject "MWTextFieldMaxLengthDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 484FBAFE28B0937E0043D190;
+			productRefGroup = 484FBB0828B0937E0043D190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				484FBB0628B0937E0043D190 /* MWTextFieldMaxLengthDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484FBB0528B0937E0043D190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484FBB1728B093830043D190 /* LaunchScreen.storyboard in Resources */,
+				484FBB1428B093830043D190 /* Assets.xcassets in Resources */,
+				484FBB1228B0937E0043D190 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E34C8A3287E09156AFE54F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MWTextFieldMaxLengthDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7637A59BEC22E6BF57CFA726 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MWTextFieldMaxLengthDemo/Pods-MWTextFieldMaxLengthDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MWTextFieldMaxLengthDemo/Pods-MWTextFieldMaxLengthDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MWTextFieldMaxLengthDemo/Pods-MWTextFieldMaxLengthDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		484FBB0328B0937E0043D190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484FBB2328B0956C0043D190 /* MWFinalMethodVC.swift in Sources */,
+				484FBB0F28B0937E0043D190 /* ViewController.swift in Sources */,
+				484FBB2728B095CD0043D190 /* MWNormalCustomTF.swift in Sources */,
+				484FBB1F28B095340043D190 /* MWMethod1VC.swift in Sources */,
+				484FBB2928B095D90043D190 /* MWCustomTF.swift in Sources */,
+				484FBB2128B0954B0043D190 /* MWMethod2VC.swift in Sources */,
+				484FBB0B28B0937E0043D190 /* AppDelegate.swift in Sources */,
+				484FBB0D28B0937E0043D190 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		484FBB1028B0937E0043D190 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484FBB1128B0937E0043D190 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		484FBB1528B093830043D190 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484FBB1628B093830043D190 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		484FBB1928B093830043D190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		484FBB1A28B093830043D190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		484FBB1C28B093830043D190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A7E8E8A21F5A73D240A2583 /* Pods-MWTextFieldMaxLengthDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M88583872C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MWTextFieldMaxLengthDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morganwang.MWTextFieldMaxLengthDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		484FBB1D28B093830043D190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217EEADC6955B7731EC1260F /* Pods-MWTextFieldMaxLengthDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M88583872C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MWTextFieldMaxLengthDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morganwang.MWTextFieldMaxLengthDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		484FBB0228B0937E0043D190 /* Build configuration list for PBXProject "MWTextFieldMaxLengthDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484FBB1928B093830043D190 /* Debug */,
+				484FBB1A28B093830043D190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484FBB1B28B093830043D190 /* Build configuration list for PBXNativeTarget "MWTextFieldMaxLengthDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484FBB1C28B093830043D190 /* Debug */,
+				484FBB1D28B093830043D190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 484FBAFF28B0937E0043D190 /* Project object */;
+}
